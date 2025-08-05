@@ -1,0 +1,202 @@
+#    _____        ___.       ___ ___         __                                                                      
+#   /     \   ____\_ |__    /   |   \_____ _/  |_ ______                                                             
+#  /  \ /  \ /  _ \| __ \  /    ~    \__  \\   __/  ___/                                                             
+# /    Y    (  <_> | \_\ \ \    Y    // __ \|  | \___ \                                                              
+# \____|__  /\____/|___  /  \___|_  /(____  |__|/____  >                                                             
+# __________           \/     ____./      \/    __ ___________         __________.__          ___________            
+# \______   \___.__. /\      |    |__ __ ______/  |\_   _______________\__    ___|  |__   ____\_   _______ __  ____  
+#  |    |  _<   |  | \/      |    |  |  /  ___\   __|    __)/  _ \_  __ \|    |  |  |  \_/ __ \|    __)|  |  \/    \ 
+#  |    |   \\___  | /\  /\__|    |  |  \___ \ |  | |     \(  <_> |  | \/|    |  |   Y  \  ___/|     \ |  |  |   |  \
+#  |______  // ____| \/  \________|____/____  >|__| \___  / \____/|__|   |____|  |___|  /\___  \___  / |____/|___|  /
+#         \/ \/                             \/          \/                            \/     \/    \/             \/
+
+only-players: "&cOnly players can execute this command!"
+no-permission: "&cNo permission!"
+console-config-reloaded: "&aMob Hats configuration has been reloaded!"
+plugin-reloaded: "&aYou have successfully reloaded the plugin!"
+
+NotItemOrNotEnough: "&c&l(!) &cThat is not an item or not enough items"
+
+GiveHat: "&a&l(!) &aYou have spent 1000 %head% &aheads to form a(n) %head% &ahat" 
+
+HeadCauldronGUI: "&d&nHead Cauldron"
+
+DepositHeadsGUI: "&d&nHeads Deposit"
+
+HeadDepositConfirm: 
+ displayname: "&aConfirm!"
+ lore:
+ - "&fniga"
+
+ChickenHead: "&c&nChicken Head"
+IronGolemHead: "&c&nIron Golem Head"
+OcelotHead: "&c&nOcelot Head"
+ZombieHead: "&c&nZombie Head"
+SquidHead: "&c&nSquid Head"
+RabbitHead: "&c&nRabbit Head"
+WitherSkeletonHead: "&c&nWither Skeleton Head"
+BlazeHead: "&c&nBlaze Head"
+WolfHead: "&c&nWolf Head"
+
+Note:
+ displayname: "&d&nNote:"
+ lore:
+ - "&fDeposit all of your heads"
+ - "&fat once!"
+
+GlassPaneItem: #The item in the Cauldron GUI.
+ material: "STAINED_GLASS_PANE" # Use materials from the bukkit material list
+ dyecolor: RED # Colour of the glass pane or the material
+ displayname: "&c"
+ lore: 
+ - "&f"
+ 
+# -----------------------------------------------------------------------------
+# WHEN YOU HAVE BOUGHT THE HAT, THIS IS WHAT IT WILL LOOK LIKE:
+
+Chicken:
+ displayname: "&d&lChicken Hat"
+ lore:
+ - "&fRemoves some fall damage"
+ - "&fwhen wearing this hat!"
+ 
+IG: 
+#Iron Golem
+ displayname: "&d&lIron Golem Hat"
+ lore:
+ - "&fGives you 1 and a half"
+ - "&fextra hearts when wearing"
+ - "&fthis hat!"
+ 
+Ocelot:
+ displayname: "&d&lOcelot Hat"
+ lore:
+ - "&fGain speed 1 when wearing"
+ - "&fthis hat!"
+
+Zombie:
+ displayname: "&d&lZombie Hat"
+ lore:
+ - "&fGain strength 1 when wearing"
+ - "&fthis hat!"
+ 
+Squid:
+ displayname: "&d&lSquid Hat"
+ lore:
+ - "&7Gain permanent water breathing"
+ - "&7while wearing this hat!"
+
+WitherSkeleton:
+ displayname: "&d&lWither Skeleton Hat"
+ lore:
+ - "&7Gain resistance 2 permanently"
+ - "&7while wearing the hat."
+ 
+Blaze:
+ displayname: "&d&lBlaze Hat"
+ lore:
+ - "&7Gain fire resistance while"
+ - "&7wearing the hat."
+ 
+Wolf:
+ displayname: "&d&lWolf Hat"
+ lore:
+ - "&7Gain speed and strength"
+ - "&7while wearing the hat."
+#-----------------------------------------------------------------------------
+#don't mind me, i'm just a spacer... thanks for buying my plugin :D
+#-----------------------------------------------------------------------------
+#WHAT THE HAT WILL LOOK LIKE IN THE CAULDRON GUI:
+
+ChickenC:
+ displayname: "&dChicken Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Removes some fall damage"
+ - "&7when wearing the hat."
+ 
+IGC: 
+#Iron Golem
+ displayname: "&dIron Golem Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gives you 1 and a half"
+ - "&7extra hearts when wearing"
+ - "&7the hat."
+ 
+OcelotC:
+ displayname: "&dOcelot Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain speed 1 when wearing"
+ - "&7the hat."
+ 
+ZombieC:
+ displayname: "&dZombie Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain strength 1 while wearing"
+ - "&7the hat."
+ 
+SquidC:
+ displayname: "&dSquid Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain permanent water breathing"
+ - "&7while wearing the hat."
+ 
+RabbitC:
+ displayname: "&dRabbit Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain jump boost 1 and speed 1"
+ - "&7while wearing the hat."
+ 
+WitherSkeletonC:
+ displayname: "&dWither Skeleton Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain resistance 2 permanently"
+ - "&7while wearing the hat."
+ 
+BlazeC:
+ displayname: "&dBlaze Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain fire resistance while"
+ - "&7wearing the hat."
+ 
+WolfC:
+ displayname: "&dWolf Hat"
+ lore:
+ - "&cHeads Needed: &f1000"
+ - "&r"
+ - "&d&nEffects"
+ - "&7Gain speed and strength"
+ - "&7while wearing the hat."
+
+
+
+
+
+
+
+
+
+

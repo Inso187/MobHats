@@ -1,0 +1,8 @@
+name: MobHats
+version: 2.5
+main: me.havenmc.hat.Core
+author: HavenMC
+commands:
+    mhreload:
+      description: Reloads the MobHats plugin!
+  
